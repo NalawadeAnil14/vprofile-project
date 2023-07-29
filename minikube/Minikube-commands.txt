@@ -12,3 +12,7 @@ choco install minikube kubernetes-cli -y
 
 ##Execute to Setup Minikube cluster
 minikube start
+
+
+##If you face 'This computer doesn't have VT-X/AMD-v enabled. Enabling it in the BIOS is mandatory' this issue then run following command 
+minikube start --no-vtx-check
